@@ -23,7 +23,7 @@ A landing page that highlights the features of the application and emphasizes th
 ### Login-Register Page
 Contains both login and registration components, allowing users to authenticate and create accounts.
 
-![Login-Register Page](psrc/assests/gg-register-page.png)  
+![Login-Register Page](src/assests/gg-register-page.png)  
 *Description:* The login-register page with components for user authentication.
 
 ### Journals Page
