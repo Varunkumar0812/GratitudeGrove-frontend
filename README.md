@@ -6,6 +6,8 @@ Gratitude Grove is a gratitude journaling web application designed to help users
 
 The frontend development has begun but is not yet fully complete. The project aims to provide a user-friendly experience with several key features and plans for future enhancements.
 
+- [Gratitude Grove - Backend](https://github.com/username/gratitude-grove-backend)
+
 ## Pages
 
 ### Dashboard Page
