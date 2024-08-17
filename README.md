@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Gratitude Grove - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Gratitude Grove is a gratitude journaling web application designed to help users create daily journal entries, store previous entries, and manage their journaling activities. The application features a calendar to display progress, a dashboard with contribution graphs, and an appealing user interface.
 
-In the project directory, you can run:
+The frontend development has begun but is not yet fully complete. The project aims to provide a user-friendly experience with several key features and plans for future enhancements.
 
-### `npm start`
+## Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Dashboard Page
+Displays user statistics and contribution graphs, providing insights into the user’s journaling activity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Dashboard Page](src/assests/gg-dashboard-page.png)  
+*Description:* The dashboard page showing user statistics and contribution graphs.
 
-### `npm test`
+### Home Page
+A landing page that highlights the features of the application and emphasizes the importance of gratitude journaling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Home Page](src/assests/gg-landing-page.png)  
+*Description:* The home page showcasing the application's features and the significance of gratitude journaling.
 
-### `npm run build`
+### Login-Register Page
+Contains both login and registration components, allowing users to authenticate and create accounts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Login-Register Page](psrc/assests/gg-register-page.png)  
+*Description:* The login-register page with components for user authentication.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Journals Page
+Lists all journal entries with options to add new journals, and features for searching, sorting, and filtering entries based on various criteria.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Journals Page](src/assests/gg-journals-page.png)  
+*Description:* The journals page displaying a list of journal entries with options to add, search, sort, and filter.
 
-### `npm run eject`
+## Features & Libraries Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Material UI:**  
+  Provides components and styling for the user interface.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Tailwind CSS:**  
+  Used for custom styling and layout.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React Icons:**  
+  For incorporating icons into the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React Router:**  
+  Handles navigation between different pages of the application.
 
-## Learn More
+- **Axios:**  
+  Used for making API calls to interact with the backend.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Future Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The following features are planned for future implementation:
 
-### Code Splitting
+- Display all journals.
+- Integration with backend APIs.
+- CRUD operations for managing journal entries.
+- Calendar view to display all journal entries.
+- Statistics visualization using graph libraries.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contribution
 
-### Analyzing the Bundle Size
+Feel free to use, modify, and contribute to this project. Your contributions are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is open-source and free to use under the MIT License.
 
-### Advanced Configuration
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Material UI** for providing a robust set of components.
+- **Tailwind CSS** for flexible and responsive styling.
+- **React Router** for seamless navigation.
+- **Axios** for handling API requests.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the project, and contribute if you have any ideas or improvements!
